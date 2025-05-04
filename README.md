@@ -22,7 +22,23 @@ A RESTful API for managing employers with JWT authentication, built using Django
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/employer-management-system.git
    cd employer-management-system
+
+2. Set up a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate  # Windows
+```
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+
+
